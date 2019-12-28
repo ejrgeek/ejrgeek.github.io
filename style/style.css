@@ -31,40 +31,8 @@
     margin-top: 10px;
 }
 
-#facebook-color{
-    border: #ab99de 1px solid;
-    color: #ab99de;
-    border-radius: 50%;
-}
-
-#facebook-color:hover{
-    color: white;
-    background-color: #4267B2;
-}
-
-#instagram-color{
-    border: #ab99de 1px solid;
-    color: #ab99de;
-    border-radius: 50%;
-}
-
-#instagram-color:hover{
-    background: radial-gradient(circle at 45% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    color: white;
-}
-
-#twitter-color{
-    border: #ab99de 1px solid;
-    color: #ab99de;
-    border-radius: 50%;
-}
-
-#twitter-color:hover{
-    background-color: #1991DA;
-    color: white;
-}
-
 #linkedin-color{
+    transition:all 0.5s ease;
     border: #ab99de 1px solid;
     color: #ab99de;
     border-radius: 50%;
@@ -76,6 +44,7 @@
 }
 
 #wordpress-color{
+    transition:all 0.5s ease;
     border: #ab99de 1px solid;
     color: #ab99de;
     border-radius: 50%;
@@ -87,6 +56,7 @@
 }
 
 #github-color{
+    transition:all 0.5s ease;
     border: #ab99de 1px solid;
     color: #ab99de;
     border-radius: 50%;
@@ -98,6 +68,7 @@
 }
 
 #lattes-color{
+    transition:all 0.5s ease;
     border: #ab99de 1px solid;
     color: #ab99de;
     border-radius: 50%;
@@ -110,9 +81,10 @@
 
 
 a{
+    transition:all 0.5s ease;
     text-decoration: none;
     color: white;
-    margin: 0 3px;
+    margin: 0 10px;
 }
 
 hr{
@@ -141,4 +113,25 @@ hr{
     text-transform: uppercase;
     line-height: 20px;
     color: #414f57;
+}
+
+.tHover{
+    transition:all 0.5s ease;
+}
+
+.tHover:hover{
+    color: rebeccapurple;
+}
+
+.footer{
+    position: fixed; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+    color: white;
+    text-align: center; padding: 10px;
+}
+
+.footer p{
+    margin: 5px 0 0 0;
 }
