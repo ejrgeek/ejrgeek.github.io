@@ -1,6 +1,6 @@
 #bg{
     z-index: -1;
-    background: rebeccapurple;
+    background: #b28cd9;
     background: linear-gradient(90deg,  #ab99de 0%, #b4a3e3 20%, #bcace8 40%, #c3b5eb 60%, #cabeed 80%, #d1c7f0 100%);
     /*filter: blur(1.5rem);*/
     backdrop-filter: blur(1rem);
@@ -80,11 +80,18 @@
 }
 
 
-a{
+.botoes{
     transition:all 0.5s ease;
     text-decoration: none;
     color: white;
-    margin: 0 10px;
+    margin: 0 15px;
+}
+
+.footerA{
+    transition:all 0.5s ease;
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
 }
 
 hr{
@@ -120,7 +127,7 @@ hr{
 }
 
 .tHover:hover{
-    color: rebeccapurple;
+    color: b28cd9;
 }
 
 .footer{
@@ -129,9 +136,11 @@ hr{
     bottom: 0; 
     width: 100%; 
     color: white;
-    text-align: center; padding: 10px;
+    text-align: center;
+    padding: 10px;
 }
 
 .footer p{
     margin: 5px 0 0 0;
+    font-size: 15px;
 }
