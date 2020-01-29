@@ -67,6 +67,18 @@
     color: white;
 }
 
+#behance-color{
+    transition:all 0.5s ease;
+    border: #ab99de 1px solid;
+    color: #ab99de;
+    border-radius: 50%;
+}
+
+#behance-color:hover{
+    background-color: #2F65D1;
+    color: white;
+}
+
 #lattes-color{
     transition:all 0.5s ease;
     border: #ab99de 1px solid;
@@ -84,7 +96,7 @@
     transition:all 0.5s ease;
     text-decoration: none;
     color: white;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 .footerA{
