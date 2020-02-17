@@ -1,9 +1,8 @@
 #bg{
     z-index: -1;
-    background: #b28cd9;
+    background: #3C4556;
     /* background: linear-gradient(130deg,  #66bdff 0%, #6cccf9 20%, #9dddfb 50%, #8fd6bb 60%, #92d3b8 80%, #8fd6b1 100%); */
-
-    background: linear-gradient(90deg,  #ab99de 0%, #b4a3e3 20%, #bcace8 40%, #c3b5eb 60%, #cabeed 80%, #d1c7f0 100%);
+    /* background: linear-gradient(90deg,  #ab99de 0%, #b4a3e3 20%, #bcace8 40%, #c3b5eb 60%, #cabeed 80%, #d1c7f0 100%); */
     
     /*filter: blur(1.5rem);*/
     backdrop-filter: blur(1rem);
@@ -16,7 +15,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 1px solid;
     box-shadow: 5px 10px;
 }
 
@@ -30,14 +28,16 @@
 .bordas-img{
     width: 150px;
     border-radius: 50%;
+    border: #3C4556 solid 3px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
 
+
 #linkedin-color{
     transition:all 0.5s ease;
-    border: #ab99de 1px solid;
-    color: #ab99de;
+    border: #3C4556 1px solid;
+    color: #3C4556;
     border-radius: 50%;
 }
 
@@ -48,8 +48,8 @@
 
 #wordpress-color{
     transition:all 0.5s ease;
-    border: #ab99de 1px solid;
-    color: #ab99de;
+    border: #3C4556 1px solid;
+    color: #3C4556;
     border-radius: 50%;
 }
 
@@ -60,8 +60,8 @@
 
 #github-color{
     transition:all 0.5s ease;
-    border: #ab99de 1px solid;
-    color: #ab99de;
+    border: #3C4556 1px solid;
+    color: #3C4556;
     border-radius: 50%;
 }
 
@@ -72,8 +72,8 @@
 
 #behance-color{
     transition:all 0.5s ease;
-    border: #ab99de 1px solid;
-    color: #ab99de;
+    border: #3C4556 1px solid;
+    color: #3C4556;
     border-radius: 50%;
 }
 
@@ -84,8 +84,8 @@
 
 #lattes-color{
     transition:all 0.5s ease;
-    border: #ab99de 1px solid;
-    color: #ab99de;
+    border: #3C4556 1px solid;
+    color: #3C4556;
     border-radius: 50%;
 }
 
@@ -110,9 +110,9 @@
 }
 
 hr{
-    color: #ab99de;
+    color: #3C4556;
     display: block;
-    border-bottom: #ab99de .5px solid;
+    border-bottom: #3C4556 .5px solid;
     border-style: inset;
 }
 
@@ -124,7 +124,7 @@ hr{
     text-transform: uppercase;
     letter-spacing: 5px;
     line-height: 40px;
-    color: #313f47;
+    color: #3C4556;
 }
 
 #profission{
@@ -134,7 +134,7 @@ hr{
     font-style: normal;
     text-transform: uppercase;
     line-height: 20px;
-    color: #414f57;
+    color: #3C4556;
 }
 
 .tHover{
@@ -142,7 +142,8 @@ hr{
 }
 
 .tHover:hover{
-    color: b28cd9;
+    color: #8be9fd;
+    font-weight: bolder;
 }
 
 .footer{
