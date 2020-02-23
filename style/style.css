@@ -27,7 +27,7 @@
 
 .bordas-img{
     width: 150px;
-    border-radius: 50%;
+    border-radius: 100%;
     border: #3C4556 solid 3px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -94,12 +94,23 @@
     color: white;
 }
 
+#google-play-color{
+    transition:all 0.5s ease;
+    border: #3C4556 1px solid;
+    color: #3C4556;
+    border-radius: 50%;
+}
+
+#google-play-color:hover{
+    background-color: #689F38;
+    color: white;
+}
 
 .botoes{
     transition:all 0.5s ease;
     text-decoration: none;
     color: white;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .footerA{
