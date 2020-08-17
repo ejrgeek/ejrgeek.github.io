@@ -111,6 +111,17 @@
     color: white;
 }
 
+#pandapay-color{
+    transition:all 0.5s ease;
+    border: #3C4556 1px solid;
+    color: #3C4556;
+}
+
+#pandapay-color:hover{
+    background-color: black;
+    color: white;
+}
+
 .botoes{
     transition:all 0.5s ease;
     text-decoration: none;
