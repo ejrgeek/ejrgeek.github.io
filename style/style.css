@@ -122,6 +122,21 @@
     color: white;
 }
 
+#curve-color{
+    transition:all 0.5s ease;
+    border: #3C4556 1px solid;
+    color: #3C4556;
+}
+
+#curve-color > img {
+    width: 32px;
+}
+
+#curve-color:hover{
+    background-color: #50BD8F;
+    color: white;
+}
+
 .botoes{
     transition:all 0.5s ease;
     text-decoration: none;
