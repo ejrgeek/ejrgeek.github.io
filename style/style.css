@@ -1,6 +1,33 @@
+@media (min-width: 1024px) and (min-height: 768px) and (orientation: landscape){
+
+    body{
+        overflow: hidden;
+    }
+}
+
+body {
+    overflow-x: hidden;
+}
+
+hr{
+    color: #ffffff !important;
+    border-bottom: #ffffff .5px solid !important;
+    border-style: inset !important;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    font-weight: bold;
+    color: white;
+}
+
 #bg{
     z-index: -1;
-    background: #C8465F;
+    background: #193A7E;
     /* background: linear-gradient(130deg,  #66bdff 0%, #6cccf9 20%, #9dddfb 50%, #8fd6bb 60%, #92d3b8 80%, #8fd6b1 100%); */
     /* background: linear-gradient(90deg,  #ab99de 0%, #b4a3e3 20%, #bcace8 40%, #c3b5eb 60%, #cabeed 80%, #d1c7f0 100%); */
     
@@ -8,36 +35,22 @@
     backdrop-filter: blur(1rem);
 }
 
+.bg-eu {
+    height: 100% !important;
+}
+
 .center{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
+    margin-top: 15%;
+    align-content: center;
     justify-content: center;
     align-items: center;
-    box-shadow: 5px 10px;
-}
-
-.center-box{
-    width: 300px;
-    height: 300px;
-    background-color: whitesmoke;
-
-}
-
-.bordas-img{
-    width: 150px;
-    border-radius: 100%;
-    border: #C8465F solid 3px;
-    margin-bottom: 10px;
-    margin-top: 10px;
 }
 
 
 #linkedin-color{
     transition:all 0.5s ease;
-    border: #3C4556 1px solid;
-    color: #3C4556;
+    border: #ffffff 1px solid;
+    color: #ffffff;
 }
 
 #linkedin-color:hover{
@@ -47,8 +60,8 @@
 
 #wordpress-color{
     transition:all 0.5s ease;
-    border: #3C4556 1px solid;
-    color: #3C4556;
+    border: #ffffff 1px solid;
+    color: #ffffff;
 }
 
 #wordpress-color:hover{
@@ -58,8 +71,8 @@
 
 #github-color{
     transition:all 0.5s ease;
-    border: #3C4556 1px solid;
-    color: #3C4556;
+    border: #ffffff 1px solid;
+    color: #ffffff;
 }
 
 #github-color:hover{
@@ -67,21 +80,21 @@
     color: white;
 }
 
-#behance-color{
+#presentation{
     transition:all 0.5s ease;
-    border: #3C4556 1px solid;
-    color: #3C4556;
+    border: #ffffff 1px solid;
+    color: #ffffff;
 }
 
-#behance-color:hover{
-    background-color: #2F65D1;
+#presentation:hover{
+    background-color: #009287;
     color: white;
 }
 
 #lattes-color{
     transition:all 0.5s ease;
-    border: #3C4556 1px solid;
-    color: #3C4556;
+    border: #ffffff 1px solid;
+    color: #ffffff;
 }
 
 #lattes-color:hover{
@@ -89,43 +102,10 @@
     color: white;
 }
 
-#google-play-color{
-    transition:all 0.5s ease;
-    border: #3C4556 1px solid;
-    color: #3C4556;
-}
-
-#google-play-color:hover{
-    background-color: #689F38;
-    color: white;
-}
-
-#discord-color{
-    transition:all 0.5s ease;
-    border: #3C4556 1px solid;
-    color: #3C4556;
-}
-
-#discord-color:hover{
-    background-color: #7289DA;
-    color: white;
-}
-
-#pandapay-color{
-    transition:all 0.5s ease;
-    border: #3C4556 1px solid;
-    color: #3C4556;
-}
-
-#pandapay-color:hover{
-    background-color: black;
-    color: white;
-}
-
 #curve-color{
     transition:all 0.5s ease;
-    border: #3C4556 1px solid;
-    color: #3C4556;
+    border: #ffffff 1px solid;
+    color: #ffffff;
 }
 
 #curve-color > img {
@@ -144,61 +124,28 @@
     margin: 0 5px;
 }
 
-.footerA{
-    transition:all 0.5s ease;
-    text-decoration: none;
-    color: white;
-    margin: 0 5px;
-}
-
-hr{
-    color: #C8465F;
-    display: block;
-    border-bottom: #C8465F .5px solid;
-    border-style: inset;
-}
-
 #name{
     font-family: 'Source Sans Pro', Helvetica, sans-serif;
     font-size: 30px;
-    font-weight: 300;
+    font-weight: bolder;
     font-style: normal;
     text-transform: uppercase;
     letter-spacing: 5px;
     line-height: 40px;
-    color: #3C4556;
+    color: #ffffff;
 }
 
-#profission{
+.profission{
     font-family: 'Source Sans Pro', Helvetica, sans-serif;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 700;
     font-style: normal;
     text-transform: uppercase;
     line-height: 20px;
-    color: #3C4556;
-}
-
-.tHover{
-    transition:all 0.5s ease;
-}
-
-.tHover:hover{
     color: #ffffff;
-    font-weight: bolder;
+    word-spacing: 5px;
 }
 
-.footer{
-    position: fixed; 
-    left: 0; 
-    bottom: 0; 
-    width: 100%; 
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-.footer p{
-    margin: 5px 0 0 0;
-    font-size: 15px;
+.topico {
+    font-size: 20px;
 }
