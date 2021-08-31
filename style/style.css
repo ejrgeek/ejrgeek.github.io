@@ -23,6 +23,7 @@
 
     * {
         visibility: hidden;
+        overflow: hidden;
     }
 
     body{
@@ -84,6 +85,17 @@
         align-content: center;
         justify-content: center;
         align-items: center;
+    }
+
+    #ejrgeekio-color{
+        transition:all 0.5s ease;
+        border: #ffffff 1px solid;
+        color: #ffffff;
+    }
+
+    #ejrgeekio-color:hover{
+        background-color: #5dff65bb;
+        color: white;
     }
 
 
