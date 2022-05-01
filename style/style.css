@@ -1,220 +1,174 @@
-@media (min-width: 1px) and (max-width: 1023px) and (min-height: 1px) and (orientation: portrait){
+.eVisivel{
+    display: none;
+}
 
-    * {
-        visibility: hidden;
-    }
+body {
+    overflow-x: hidden;
+}
 
-    body{
-        overflow: hidden;
-        background: rgb(254,255,0);
-        background: linear-gradient(150deg, rgba(254,255,0,1) 0%, rgba(0,0,0,1) 5%, rgba(255,226,0,1) 9%, rgba(0,0,0,1) 13%, rgba(0,0,0,1) 17%, rgba(255,231,0,1) 23%, rgba(0,0,0,1) 27%, rgba(255,231,0,1) 32%, rgba(0,0,0,1) 36%, rgba(255,231,0,1) 41%, rgba(0,0,0,1) 45%, rgba(255,231,0,1) 50%, rgba(0,0,0,1) 55%, rgba(255,231,0,1) 59%, rgba(0,0,0,1) 64%, rgba(255,231,0,1) 68%, rgba(0,0,0,1) 73%, rgba(255,231,0,1) 78%, rgba(0,0,0,1) 82%, rgba(255,231,0,1) 87%, rgba(0,0,0,1) 91%, rgba(255,231,0,1) 96%, rgba(0,0,0,1) 100%);
-    }
+hr{
+    color: #ffffff !important;
+    border-bottom: #ffffff .5px solid !important;
+    border-style: inset !important;
+}
 
-    .eVisivel{
-        display: inline-block !important;
-        visibility: visible;
-        color: black;
-        background-color: white;
-    }
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    font-weight: bold;
+    color: white;
+}
+
+#bg{
+    z-index: -1;
+    background: #290040;
+    /* background: linear-gradient(130deg,  #66bdff 0%, #6cccf9 20%, #9dddfb 50%, #8fd6bb 60%, #92d3b8 80%, #8fd6b1 100%); */
+    /* background: linear-gradient(90deg,  #ab99de 0%, #b4a3e3 20%, #bcace8 40%, #c3b5eb 60%, #cabeed 80%, #d1c7f0 100%); */
+    
+    /*filter: blur(1.5rem);*/
+    backdrop-filter: blur(1rem);
+}
+
+.bg-eu {
+    height: 100% !important;
+}
+
+.center{
+    margin-top: 15%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#wolabs-color{
+    transition:all 0.5s ease;
+    border: #ffffff 1px solid;
+    color: #ffffff;
+}
+
+#wolabs-color:hover{
+    background-color: #0A0A0A;
+    color: white;
 }
 
 
-@media (max-width: 1023px) and (max-height: 768px) and (orientation: landscape){
-
-    * {
-        visibility: hidden;
-        overflow: hidden;
-    }
-
-    body{
-        overflow: hidden;
-        background: rgb(254,255,0);
-        background: linear-gradient(150deg, rgba(254,255,0,1) 0%, rgba(0,0,0,1) 5%, rgba(255,226,0,1) 9%, rgba(0,0,0,1) 13%, rgba(0,0,0,1) 17%, rgba(255,231,0,1) 23%, rgba(0,0,0,1) 27%, rgba(255,231,0,1) 32%, rgba(0,0,0,1) 36%, rgba(255,231,0,1) 41%, rgba(0,0,0,1) 45%, rgba(255,231,0,1) 50%, rgba(0,0,0,1) 55%, rgba(255,231,0,1) 59%, rgba(0,0,0,1) 64%, rgba(255,231,0,1) 68%, rgba(0,0,0,1) 73%, rgba(255,231,0,1) 78%, rgba(0,0,0,1) 82%, rgba(255,231,0,1) 87%, rgba(0,0,0,1) 91%, rgba(255,231,0,1) 96%, rgba(0,0,0,1) 100%);
-    }
-
-    .eVisivel{
-        display: inline-block !important;
-        visibility: visible;
-        color: black;
-        background-color: white;
-    }
+#linkedin-color{
+    transition:all 0.5s ease;
+    border: #ffffff 1px solid;
+    color: #ffffff;
 }
 
-@media (min-width: 1024px) and (min-height: 1px) and (orientation: landscape) {
+#linkedin-color:hover{
+    background-color: #0077B5;
+    color: white;
+}
 
-    .eVisivel{
-        display: none;
-    }
+#wordpress-color{
+    transition:all 0.5s ease;
+    border: #ffffff 1px solid;
+    color: #ffffff;
+}
 
-    body {
-        overflow-x: hidden;
-    }
+#wordpress-color:hover{
+    background-color: #00749A;
+    color: white;
+}
 
-    hr{
-        color: #ffffff !important;
-        border-bottom: #ffffff .5px solid !important;
-        border-style: inset !important;
-    }
+#github-color{
+    transition:all 0.5s ease;
+    border: #ffffff 1px solid;
+    color: #ffffff;
+}
 
-    a {
-        text-decoration: none;
-        color: white;
-    }
+#github-color:hover{
+    background-color: #24292E;
+    color: white;
+}
 
-    a:hover {
-        font-weight: bold;
-        color: white;
-    }
+#presentation{
+    transition:all 0.5s ease;
+    border: #ffffff 1px solid;
+    color: #ffffff;
+}
 
-    #bg{
-        z-index: -1;
-        background: #290040;
-        /* background: linear-gradient(130deg,  #66bdff 0%, #6cccf9 20%, #9dddfb 50%, #8fd6bb 60%, #92d3b8 80%, #8fd6b1 100%); */
-        /* background: linear-gradient(90deg,  #ab99de 0%, #b4a3e3 20%, #bcace8 40%, #c3b5eb 60%, #cabeed 80%, #d1c7f0 100%); */
-        
-        /*filter: blur(1.5rem);*/
-        backdrop-filter: blur(1rem);
-    }
+#presentation:hover{
+    background-color: #009287;
+    color: white;
+}
 
-    .bg-eu {
-        height: 100% !important;
-    }
+#lattes-color{
+    transition:all 0.5s ease;
+    border: #ffffff 1px solid;
+    color: #ffffff;
+}
 
-    .center{
-        margin-top: 15%;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-    }
+#lattes-color:hover{
+    background-color: #32649F;
+    color: white;
+}
 
-    #wolabs-color{
-        transition:all 0.5s ease;
-        border: #ffffff 1px solid;
-        color: #ffffff;
-    }
+#curve-color{
+    transition:all 0.5s ease;
+    border: #ffffff 1px solid;
+    color: #ffffff;
+}
 
-    #wolabs-color:hover{
-        background-color: #0A0A0A;
-        color: white;
-    }
+#curve-color > img {
+    width: 32px;
+}
 
+#curve-color:hover{
+    background-color: #50BD8F;
+    color: white;
+}
 
-    #linkedin-color{
-        transition:all 0.5s ease;
-        border: #ffffff 1px solid;
-        color: #ffffff;
-    }
+#wolabs-btn-color{
+    transition:all 0.5s ease;
+    border: #ffffff 1px solid;
+    color: #ffffff;
+}
 
-    #linkedin-color:hover{
-        background-color: #0077B5;
-        color: white;
-    }
+#wolabs-btn-color > img {
+    width: 32px;
+}
 
-    #wordpress-color{
-        transition:all 0.5s ease;
-        border: #ffffff 1px solid;
-        color: #ffffff;
-    }
+#wolabs-btn-color:hover{
+    background-color: #0A0A0A;
+    color: white;
+}
 
-    #wordpress-color:hover{
-        background-color: #00749A;
-        color: white;
-    }
+.botoes{
+    transition:all 0.5s ease;
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+}
 
-    #github-color{
-        transition:all 0.5s ease;
-        border: #ffffff 1px solid;
-        color: #ffffff;
-    }
+#name{
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bolder;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 40px;
+    color: #ffffff;
+}
 
-    #github-color:hover{
-        background-color: #24292E;
-        color: white;
-    }
+.profission{
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 20px;
+    color: #ffffff;
+    word-spacing: 5px;
+}
 
-    #presentation{
-        transition:all 0.5s ease;
-        border: #ffffff 1px solid;
-        color: #ffffff;
-    }
-
-    #presentation:hover{
-        background-color: #009287;
-        color: white;
-    }
-
-    #lattes-color{
-        transition:all 0.5s ease;
-        border: #ffffff 1px solid;
-        color: #ffffff;
-    }
-
-    #lattes-color:hover{
-        background-color: #32649F;
-        color: white;
-    }
-
-    #curve-color{
-        transition:all 0.5s ease;
-        border: #ffffff 1px solid;
-        color: #ffffff;
-    }
-
-    #curve-color > img {
-        width: 32px;
-    }
-
-    #curve-color:hover{
-        background-color: #50BD8F;
-        color: white;
-    }
-
-    #wolabs-btn-color{
-        transition:all 0.5s ease;
-        border: #ffffff 1px solid;
-        color: #ffffff;
-    }
-
-    #wolabs-btn-color > img {
-        width: 32px;
-    }
-
-    #wolabs-btn-color:hover{
-        background-color: #0A0A0A;
-        color: white;
-    }
-
-    .botoes{
-        transition:all 0.5s ease;
-        text-decoration: none;
-        color: white;
-        margin: 0 5px;
-    }
-
-    #name{
-        font-family: 'Source Sans Pro', Helvetica, sans-serif;
-        font-size: 26px;
-        font-weight: bolder;
-        font-style: normal;
-        text-transform: uppercase;
-        letter-spacing: 5px;
-        line-height: 40px;
-        color: #ffffff;
-    }
-
-    .profission{
-        font-family: 'Source Sans Pro', Helvetica, sans-serif;
-        font-size: 15px;
-        font-weight: 700;
-        font-style: normal;
-        text-transform: uppercase;
-        line-height: 20px;
-        color: #ffffff;
-        word-spacing: 5px;
-    }
-
-    .topico {
-        font-size: 20px;
-    }
-
+.topico {
+    font-size: 20px;
 }
