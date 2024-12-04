@@ -1,0 +1,73 @@
+{
+    "titlePresentation": "Hi, I'm <span>Erlon</span><br /><span class='span'>Software Engineer.</span>",
+    "discPresentation": "I have a Bachelor's degree in Computer Science, I am a University Professor and a Software Engineer with a focus on backend development. I have experience with DevOps practices, always seeking to create scalable, secure and high-performance solutions.",
+    "cvAccess": "Access my CV",
+    "cvLink": "https://bit.ly/portf-cv-en-erlondnjr",
+    "titleAboutMe": "More About Me",
+    "aboutMe1": "I have participated in national and international projects, aligning technological innovation with client needs and collaborating with multidisciplinary teams to deliver impactful solutions.",
+    "aboutMe2": "About my main Stack, I have over six years working with Python and Django, and four years working with Docker, AWS and their main services. I also work a lot in the role of Software/Solutions Architect.",
+    "aboutMe3": "I am an independent speaker and researcher in the areas of Information Security, Hardware Hacking and the Internet of Things.",
+    "aboutMe4": "I have been studying and seeking to learn more and more about Blockchain/Solidity and 3D Game Development.",
+    "titleSkills": "My Skills/Technologies",
+    "subTitleSkills": "Tools, Technologies and Skills",
+    "otherSkills": "Other Notable Tools, Technology and Skills",
+    "titleTalks": "Minhas Palestras em Eventos",
+    "titleAcademy": "My Talks at Events",
+    "titleExperiences": "Main Experiences",
+    
+    "exp1Title": "Software Engineer",
+    "exp1Firm": "Horizon Studio | Remote",
+    "exp1Time": "abr de 2024 - until now",
+    "exp1Desc": "I develop and manage software projects, covering Smart Contracts, Blockchain, RESTFul APIs and Web Services. I lead technology teams and define the company's software and infrastructure architecture. My experience includes developing mobile and web application solutions, as well as ensuring the security and reliability of systems. I am also responsible for evaluating and implementing new technologies, aligning them with business needs.",
+    
+    "exp2Title": "Computer Professor",
+    "exp2Firm": "Faculdade Católica da Paraíba | Cajazeiras, Paraíba",
+    "exp2Time": "fev de 2022 - until now",
+    "exp2Desc": "I teach the following subjects: Information and Technology Management, Project Management, Object Oriented Programming, Mobile Programming, Software Evolution, Software Testing, Computer Architecture and Organization, and Image Processing and Computer Vision. In addition, I work as a coordinator of an educational software research and development project.",
+    
+    "exp3Title": "Software Engineer",
+    "exp3Firm": "2WO Labs | Remote",
+    "exp3Time": "fev de 2022 - abr de 2024",
+    "exp3Desc": "I have worked in project management and development of mobile and web software, as well as providing training and consultancy. I have also been involved in research, development and innovation projects, focusing on advanced technological solutions.",
+    
+    "exp4Title": "Software Engineer",
+    "exp4Firm": "SoftStation Soluções | Remote",
+    "exp4Time": "set de 2022 - set de 2023",
+    "exp4Desc": "Development and modeling of application and infrastructure architectures. Development of an ERP to assist small and medium-sized companies.",
+    
+    "exp5Title": "Senior BackEnd Engineer - Freelancer",
+    "exp5Firm": "Grow Group | Remote",
+    "exp5Time": "jul de 2022 - out de 2022",
+    "exp5Desc": "I have worked in software development using Python, integrating Vue.js, managing databases and services on Amazon Web Services. My experience includes developing APIs with Django/Django REST Framework, following the RESTful architecture, as well as working with agile methodologies and software test automation.",
+    
+    "exp6Title": "Senior Flutter Developer",
+    "exp6Firm": "AMcom | Remote",
+    "exp6Time": "jul de 2021 - fev de 2022",
+    "exp6Desc": "I worked on the development of mobile and web applications using Flutter and Dart, with projects for the São Paulo State Department of Education (SME/SERAP) and Agrícola Alvorada (RTV). My skills include the use of technologies such as Android, Web, MobX, GetIt, Rest, MVVM, Modular, among others, applied in robust and scalable solutions.",
+    
+    "exp7Title": "FullStack Developer",
+    "exp7Firm": "Intmed Software | Remote",
+    "exp7Time": "out de 2020 - mai de 2021",
+    "exp7Desc": "I worked on the maintenance and development of new features in hospital software, focusing on the backend using Python/Django and the frontend with TypeScript/Angular, ensuring continuous improvements and optimization of the system's features.",
+
+    "titleAcademic": "Main Academic Qualifications",
+
+    "expIes1": "UFERSA",
+    "expCourse1": "Master in Computer Science",
+    "expCourseTime1": "mar de 2023 - dez de 2023 · Interrupted",
+
+    "expIes2": "EducaMinas EAD",
+    "expCourse2": "MBA in Networks, Information Systems and Internet of Things",
+    "expCourseTime2": "ago de 2022 - mar de 2023",
+
+    "expIes3": "Faculdade Católica da Paraíba",
+    "expCourse3": "Bachelor of Computer Science",
+    "expCourseTime3": "mar de 2018 - dez de 2021",
+
+    "titleContact": "Contact Me",
+    "fieldEmail": "Your Email",
+    "fieldMessage": "Your message",
+    "btnSendMessage": "SEND MESSAGE" 
+
+
+}

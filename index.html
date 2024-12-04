@@ -34,6 +34,8 @@
     <link rel="stylesheet" href="./css/feature.css" />
     <!-- Style css -->
     <link rel="stylesheet" href="./css/style.css" />
+
+    <script src="./i18n/i18n.js"></script>
   </head>
 
   <body
@@ -65,23 +67,17 @@
                       />
                     </div>
                     <div class="banner-title-area pt--30">
-                      <h1 class="title">
-                        Oi, Sou <span>Erlon</span><br /><span class="span">
-                          Engenheiro de Software.</span
-                        >
-                      </h1>
-                      <p class="disc">
-                        Sou Bacharel em Ciência da Computação, Professor Universitário e Engenheiro de Software
-                        com foco em desenvolvimento backend. Tenho experiência com práticas de DevOps, sempre buscando criar soluções escaláveis, seguras e de alto desempenho.
-                      </p>
+                      <h1 class="title" id="titlePresentation"></h1>
+                      <p class="disc" id="discPresentation"></p>
                     </div>
                     <div
                       class="button-group text-center text-md-start pt--50 pt_md--40 pt_sm--40"
                     >
                       <a
                         class="rn-btn"
-                        href="https://bit.ly/portf-curriculo-erlondnjr"
-                        ><span>Acesse meu CV</span></a
+                        id="cvLink"
+                        href="/"
+                        ><span id="cvAccess"></span></a
                       >
                       <a
                         class="rn-btn"
@@ -108,27 +104,14 @@
                 <!-- about area -->
                 <div class="rn-about-area section-height">
                   <div class="inner" style="text-align: justify;">
-                    <h5 class="title">Mais Sobre Mim</h5>
-                    <p class="about-disc"> 
-                        Já participei de projetos nacionais e internacionais, alinhando inovação tecnológica às necessidades
-                        do cliente e colaborando com equipes multidisciplinares para entregar soluções de impacto.
-                    </p>
+                    <h5 class="title" id="titleAboutMe"></h5>
+                    <p class="about-disc" id="aboutMe1"></p>
 
-                    <p class="about-disc"> 
-                      Sobre minha Stack principal, tenho mais de seis anos trabalhando com Python e Django,
-                      e quatro trabalhando com Docker, AWS e seus principais serviços. Também atuo bastante
-                      no papel de Arquiteto de Software/Soluções.
-                    </p>
+                    <p class="about-disc" id="aboutMe2"></p>
                     </br>
-                    <p class="about-disc"> 
-                      Sou palestrante e pesquisador indepente das áreas de Segurança da Informação,
-                      Hardware Hacking e Internet das Coisas.
-                    </p>
+                    <p class="about-disc" id="aboutMe3"></p>
                   </br>
-                    <p class="about-disc"> 
-                      Tenho estudado e buscando aprender mais e mais sobre Blockchain/Solidity
-                       e Desenvolvimento de Jogos 3D.
-                    </p>
+                    <p class="about-disc" id="aboutMe4"></p>
                   </div>
                 </div>
                 <!-- about area end -->
@@ -136,9 +119,9 @@
                 <!-- Start skill area -->
                 <div class="rn-skill-area section-height">
                   <div class="inner slide">
-                    <h5 class="title">Minhas Habilidades/Tecnologias</h5>
+                    <h5 class="title" id="titleSkills"></h5>
                     <div class="skill-share-inner pt--100">
-                      <span class="title">Ferramentas, Tecnologias e Habilidades Principais</span>
+                      <span class="title" id="subTitleSkills"></span>
                       <ul class="skill-share d-flex liststyle">
                         <li>
                           <img
@@ -205,7 +188,7 @@
                     <div
                       class="skill-share-inner skill-share-inner-width margin-top-25"
                     >
-                      <span class="title">Outras Ferramentas, Tecnologia e Habilidades Destacáveis</span>
+                      <span class="title" id="otherSkills"></span>
                       <ul class="skill-share d-flex liststyle">
                         <li>
                           <img
@@ -319,11 +302,12 @@
                   class="rn-skill-area single-card-sticky section-height aos-init"
                 >
                   <div class="inner">
-                    <h5 class="title">Minhas Palestras em Eventos</h5>
+                    <h5 class="title" id="titleTalks"></h5>
                     <ul class="card-list">
                       <li>
                         <a
-                          href="https://rainbowit.net/html/inbio/home-freelancer-white-version.html#"
+                          href="https://speakerdeck.com/erlondnjr/hardware-hacking-atacando-com-arduino"
+                          target="_blank"
                           >Roadsec - Hardware Hacking: Atacando com Arduino
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -343,6 +327,7 @@
                       <li>
                         <a
                           href="https://speakerdeck.com/erlondnjr/hardware-hacking-na-pratica"
+                          target="_blank"
                           >Jampasec - Hardware Hacking na Prática<svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -361,6 +346,7 @@
                       <li>
                         <a
                           href="https://youtu.be/ZyHF8jwqCeU"
+                          target="_blank"
                           >[Vídeo] Jampasec - Hardware Hacking na Prática<svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -379,6 +365,7 @@
                       <li>
                         <a
                           href="https://speakerdeck.com/erlondnjr/python-iot-deteccao-e-reconhecimento-de-faces-aplicacoes-na-sociedade"
+                          target="_blank"
                           >Python Brasil - Python IoT: Reconhecimento Facial<svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -397,6 +384,7 @@
                       <li>
                         <a
                           href="https://speakerdeck.com/erlondnjr/novas-tecnologias-impactos-no-mercado-negocios-e-profissoes"
+                          target="_blank"
                           >Novas Tecnologias: Impactos no mercado<svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -422,11 +410,12 @@
                   class="rn-portfolio-area single-card-sticky section-height aos-init"
                 >
                   <div class="inner">
-                    <h5 class="title">Academia</h5>
+                    <h5 class="title" id="titleAcademy"></h5>
                     <ul class="card-list">
                       <li>
                         <a
                           href="https://erlonbcc.wordpress.com/"
+                          target="_blank"
                           >Blog Pessoal
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -446,6 +435,7 @@
                       <li>
                         <a
                           href="http://lattes.cnpq.br/8430770538420375"
+                          target="_blank"
                           >Currículo Lattes<svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -464,6 +454,7 @@
                       <li>
                         <a
                           href="/simulador-cartoes-perfurados/"
+                          target="_blank"
                           >Projeto Exemplo Cartão Perfurado Simples<svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -482,6 +473,7 @@
                       <li>
                         <a
                           href="https://catolicapb.com.br/votacao-do-dce/"
+                          target="_blank"
                           >Urna Eletrônica - Votação DCE
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -501,6 +493,7 @@
                       <li>
                         <a
                           href="https://djangogirls.org/pt-br/cajazeiras/"
+                          target="_blank"
                           >Django Girls - Mentor
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -527,119 +520,70 @@
                   class="rn-blog-area single-card-sticky section-height aos-init"
                 >
                   <div class="inner">
-                    <h5 class="title">Principais Experiências</h5>
+                    <h5 class="title" id="titleExperiences"></h5>
                     
                     <ul class="card-list">
                       
                       <li>
                         <div class="rn-about-area section-height">
-                          <p class="exp-title">Engenheiro de Software</p>
-                          <p class="exp-firm">Horizon Studio | Remoto</p>
-                          <p class="exp-time">abr de 2024 - o momento</p>
-                          <p class="exp-desc">
-                            Eu desenvolvo e gerencio projetos de software,
-                            abrangendo Smart Contracts, Blockchain, RESTFul APIs e Web Services. 
-                            Lidero equipes de tecnologia e defino a arquitetura do software e 
-                            infraestrutura da empresa. Minha experiência inclui desenvolver soluções 
-                            de aplicativos móveis e web, bem como garantir a segurança e confiabilidade 
-                            dos sistemas. Também sou responsável por avaliar e implementar novas 
-                            tecnologias, alinhando-as com as necessidades do negócio.
-                          </p>
+                          <p class="exp-title" id="exp1Title"></p>
+                          <p class="exp-firm" id="exp1Firm"></p>
+                          <p class="exp-time" id="exp1Time"></p>
+                          <p class="exp-desc" id="exp1Desc"></p>
                         </div>
                       </li>
 
                       <li>
                         <div class="rn-about-area section-height">
-                          <p class="exp-title">Professor de computação</p>
-                          <p class="exp-firm">Faculdade Católica da Paraíba | Cajazeiras, Paraíba</p>
-                          <p class="exp-time">fev de 2022 - o momento</p>
-                          <p class="exp-desc">
-                            Eu ensino as seguintes disciplinas: Gestão da Informação e 
-                            Tecnologia, Gestão de Projetos, Programação Orientada a Objetos, 
-                            Programação Mobile, Evolução de Software, Teste de Software, 
-                            Arquitetura e Organização de Computadores e Processamento de 
-                            Imagens e Visão Computacional. Além disso, trabalho como 
-                            coordenador de um projeto de pesquisa e desenvolvimento 
-                            de software educacional.
-                          </p>
+                          <p class="exp-title" id="exp2Title"></p>
+                          <p class="exp-firm" id="exp2Firm"></p>
+                          <p class="exp-time" id="exp2Time"></p>
+                          <p class="exp-desc" id="exp2Desc"></p>
                         </div>
                       </li>
 
                       <li>
                         <div class="rn-about-area section-height">
-                          <p class="exp-title">Engenheiro de software</p>
-                          <p class="exp-firm">2WO Labs | Cajazeiras, Paraíba · Híbrida</p>
-                          <p class="exp-time">fev de 2022 - abr de 2024</p>
-                          <p class="exp-desc">
-                            Trabalhei em gerenciamento de projetos e desenvolvimento
-                             de software mobile e web, além de fornecer treinamento 
-                             e consultoria. Também estive envolvido em projetos de 
-                             pesquisa, desenvolvimento e inovação, com foco em soluções
-                              tecnológicas avançadas.
-                          </p>
+                          <p class="exp-title" id="exp3Title"></p>
+                          <p class="exp-firm" id="exp3Firm"></p>
+                          <p class="exp-time" id="exp3Time"></p>
+                          <p class="exp-desc" id="exp3Desc"></p>
                         </div>
                       </li>
 
                       <li>
                         <div class="rn-about-area section-height">
-                          <p class="exp-title">Engenheiro de software</p>
-                          <p class="exp-firm">SoftStation Soluções | Cajazeiras, Paraíba · Híbrida</p>
-                          <p class="exp-time">set de 2022 - set de 2023</p>
-                          <p class="exp-desc">
-                            Desenvolvimento e modelagem de arquiteturas das aplicações e infraestrutura. 
-                            Desenvolvimento de um ERP para auxiliar pequenas e médias empresas.
-                          </p>
+                          <p class="exp-title" id="exp4Title"></p>
+                          <p class="exp-firm" id="exp4Firm"></p>
+                          <p class="exp-time" id="exp4Time"></p>
+                          <p class="exp-desc" id="exp4Desc"></p>
                         </div>
                       </li>
 
                       <li>
                         <div class="rn-about-area section-height">
-                          <p class="exp-title">Senior BackEnd Engineer - Freelancer</p>
-                          <p class="exp-firm">Grow Group | Remoto</p>
-                          <p class="exp-time">jul de 2022 - out de 2022</p>
-                          <p class="exp-desc">
-                            Trabalhei em desenvolvimento de software usando Python,
-                             integrando Vue.js, gerenciando bancos de dados e
-                              serviços na Amazon Web Services. Minha experiência 
-                              inclui desenvolvimento de APIs com Django/Django REST
-                               Framework, seguindo a arquitetura RESTful, além de
-                                trabalhar com metodologias ágeis e automação de testes
-                                 de software.
-                          </p>
+                          <p class="exp-title" id="exp5Title"></p>
+                          <p class="exp-firm" id="exp5Firm"></p>
+                          <p class="exp-time" id="exp5Time"></p>
+                          <p class="exp-desc" id="exp5Desc"></p>
                         </div>
                       </li>
 
                       <li>
                         <div class="rn-about-area section-height">
-                          <p class="exp-title">Desenvolvedor Flutter Sênior</p>
-                          <p class="exp-firm">AMcom | Remoto</p>
-                          <p class="exp-time">jul de 2021 - fev de 2022</p>
-                          <p class="exp-desc">
-                            Atuei no desenvolvimento de aplicações mobile e
-                             web utilizando Flutter e Dart, com projetos para
-                              a Secretaria de Educação do Estado de São Paulo
-                               (SME/SERAP) e Agrícola Alvorada (RTV). Minhas
-                                habilidades incluem o uso de tecnologias como
-                                 Android, Web, MobX, GetIt, Rest, MVVM, Modular,
-                                  entre outras, aplicadas em soluções robustas
-                                   e escaláveis.
-                          </p>
+                          <p class="exp-title" id="exp6Title"></p>
+                          <p class="exp-firm" id="exp6Firm"></p>
+                          <p class="exp-time" id="exp6Time"></p>
+                          <p class="exp-desc" id="exp6Desc"></p>
                         </div>
                       </li>
 
                       <li>
                         <div class="rn-about-area section-height">
-                          <p class="exp-title">FullStack Developer</p>
-                          <p class="exp-firm">Intmed Software | Remoto</p>
-                          <p class="exp-time">out de 2020 - mai de 2021</p>
-                          <p class="exp-desc">
-                            Atuei na manutenção e desenvolvimento de novas 
-                            funcionalidades em softwares hospitalares, com 
-                            foco no backend utilizando Python/Django e no 
-                            frontend com TypeScript/Angular, garantindo 
-                            melhorias contínuas e otimização das funcionalidades 
-                            do sistema.
-                          </p>
+                          <p class="exp-title" id="exp7Title"></p>
+                          <p class="exp-firm" id="exp7Firm"></p>
+                          <p class="exp-time" id="exp7Time"></p>
+                          <p class="exp-desc" id="exp7Desc"></p>
                         </div>
                       </li>
 
@@ -653,31 +597,31 @@
                   class="rn-blog-area single-card-sticky section-height aos-init"
                 >
                   <div class="inner">
-                    <h5 class="title">Principais Formações Acadêmicas</h5>
+                    <h5 class="title" id="titleAcademic"></h5>
                     
                     <ul class="card-list">
                       
                       <li>
                         <div class="rn-about-area section-height">                          
-                          <p class="exp-ies">UFERSA</p>
-                          <p class="exp-course">Mestrado em Ciências da Computação</p>
-                          <p class="exp-time">mar de 2023 - dez de 2023</p>
+                          <p class="exp-ies" id="expIes1"></p>
+                          <p class="exp-course" id="expCourse1"></p>
+                          <p class="exp-time" id="expCourseTime1"></p>
                         </div>
                       </li>
 
                       <li>
                         <div class="rn-about-area section-height">                          
-                          <p class="exp-ies">EducaMinas EAD</p>
-                          <p class="exp-course">MBA em Redes, Sistemas de Informações e Internet das Coisas</p>
-                          <p class="exp-time">ago de 2022 - mar de 2023</p>
+                          <p class="exp-ies" id="expIes2"></p>
+                          <p class="exp-course" id="expCourse2"></p>
+                          <p class="exp-time" id="expCourseTime2"></p>
                         </div>
                       </li>
 
                       <li>
                         <div class="rn-about-area section-height">                          
-                          <p class="exp-ies">Faculdade Católica da Paraíba</p>
-                          <p class="exp-course">Bacharelado em Ciência da Computação</p>
-                          <p class="exp-time">mar de 2018 - dez de 2021</p>
+                          <p class="exp-ies" id="expIes3"></p>
+                          <p class="exp-course" id="expCourse3"></p>
+                          <p class="exp-time" id="expCourseTime3"></p>
                         </div>
                       </li>
 
@@ -691,7 +635,7 @@
                   class="rn-contact-area section-height aos-init"
                 >
                   <div class="inner">
-                    <h5 class="title">Entre em Contato Comigo</h5>
+                    <h5 class="title" id="titleContact"></h5>
                     <!-- Form area Srart -->
                      <form action="https://formspree.io/f/xwpkqayr" method="POST">
                       <div class="contact-form-wrapper">
@@ -699,31 +643,29 @@
                           <div class="row">
                             <div class="col-lg-12">
                               <div class="form-group">
-                                <label for="email">Seu Email</label>
+                                <label for="email" id="fieldEmail"></label>
                                 <input
                                   class="form-control form-control-sm"
                                   id="email"
                                   name="email"
                                   type="email"
-                                  placeholder="exemplo@dominio.com"
                                 />
                               </div>
                             </div>
                             <div class="col-lg-12">
                               <div class="form-group">
-                                <label for="message">Sua Mensagem</label>
+                                <label for="message"></label>
                                 <textarea
                                   name="message"
                                   id="message"
                                   cols="30"
                                   rows="10"
-                                  placeholder="Clique no campo para escrever. Dica: Se identifique, diga qual o assunto da sua mensagem e sua mensagem. Lembre-se de ser gentil!"
                                 ></textarea>
                               </div>
                             </div>
                             <div class="col-lg-12">
                               <button type="submit" class="rn-btn">
-                                <span>ENVIAR MENSAGEM</span>
+                                <span id="btnSendMessage"></span>
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
                                   width="24"
