@@ -1,17 +1,15 @@
 {
     "titlePresentation": "Oi, Sou <span>Erlon</span><br /><span class='span'>Engenheiro de Software.</span>",
     "discPresentation": "Sou Bacharel em Ciência da Computação, Professor Universitário e Engenheiro de Software com foco em desenvolvimento backend. Tenho experiência com práticas de DevOps, sempre buscando criar soluções escaláveis, seguras e de alto desempenho.",
-    "cvAccess": "Acesse meu CV",
-    "cvLink": "https://bit.ly/portf-curriculo-erlondnjr",
     "titleAboutMe": "Mais Sobre Mim",
     "aboutMe1": "Já participei de projetos nacionais e internacionais, alinhando inovação tecnológica às necessidades do cliente e colaborando com equipes multidisciplinares para entregar soluções de impacto.",
     "aboutMe2": "Sobre minha Stack principal, tenho mais de seis anos trabalhando com Python e Django, e quatro trabalhando com Docker, AWS e seus principais serviços. Também atuo bastante no papel de Arquiteto de Software/Soluções.",
     "aboutMe3": "Sou palestrante e pesquisador independente das áreas de Segurança da Informação, Hardware Hacking e Internet das Coisas.",
-    "aboutMe4": "Tenho estudado e buscando aprender mais e mais sobre Blockchain/Solidity e Desenvolvimento de Jogos 3D.",
+    "aboutMe4": "Sempre me aperfeiçoando cada vez mais sobre Blockchain/Solidity e Desenvolvimento Seguro de Software.",
     "titleSkills": "Minhas Habilidades/Tecnologias",
     "subTitleSkills": "Ferramentas, Tecnologias e Habilidades Principais",
     "otherSkills": "Outras Ferramentas, Tecnologia e Habilidades Destacáveis",
-    "titleTalks": "Minhas Palestras em Eventos",
+    "titleTalks": "Minhas Palestras",
     "titleAcademy": "Academia",
     "titleExperiences": "Principais Experiências",
 
@@ -22,7 +20,7 @@
     "exp1Time": "abr de 2024 - o momento",
     "exp1Desc": "Eu desenvolvo e gerencio projetos de software, abrangendo Smart Contracts, Blockchain, RESTFul APIs e Web Services. Lidero equipes de tecnologia e defino a arquitetura do software e infraestrutura da empresa. Minha experiência inclui desenvolver soluções de aplicativos móveis e web, bem como garantir a segurança e confiabilidade dos sistemas. Também sou responsável por avaliar e implementar novas tecnologias, alinhando-as com as necessidades do negócio.",
     
-    "exp2Title": "Professor de computação",
+    "exp2Title": "Professor Universitário",
     "exp2Firm": "Faculdade Católica da Paraíba | Cajazeiras, Paraíba",
     "exp2Time": "fev de 2022 - o momento",
     "exp2Desc": "Eu ensino as seguintes disciplinas: Gestão da Informação e Tecnologia, Gestão de Projetos, Programação Orientada a Objetos, Programação Mobile, Evolução de Software, Teste de Software, Arquitetura e Organização de Computadores e Processamento de Imagens e Visão Computacional. Além disso, trabalho como coordenador de um projeto de pesquisa e desenvolvimento de software educacional.",
@@ -66,7 +64,7 @@
     "expCourse3": "Bacharelado em Ciência da Computação",
     "expCourseTime3": "mar de 2018 - dez de 2021",
 
-    "titleContact": "Entre em Contato ",
+    "titleContact": "Entre em Contato",
     "fieldEmail": "Seu Email",
     "fieldMessage": "Sua Mensagem",
     "btnSendMessage": "ENVIAR MENSAGEM" 
