@@ -70,8 +70,9 @@ footer {
 
 .cta,
 .github-redirect,
-.navbar-tabs-ul a {
-    text-decoration: none
+.navbar-tabs-ul a,
+.resume-btn {
+    text-decoration: none;
 }
 
 #GmailLogo,
